@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.content {
+    position: fixed;
+    background: linear-gradient(160deg, rgb(181, 218, 239), rgb(216, 188, 226));
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 73px;
+    margin-left: 170px;
+    height: 80vh;
+    width: 75vw;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(99, 99, 99);
+    font-family: sans-serif;
+}
+
+.col1 {
+    width: 40vw;
+}
+
+.img {
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 170px;
+    height: 300px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 70px;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color:rgb(77, 77, 77);
+    letter-spacing: -2.5px;
+    line-height: 55px;
+}
+
+.text p {
+    margin-top: -110px;
+    line-height: 25px;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    margin-left: 430px;
+    width: 50vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+form * {
+    margin-top: 30px;
+}
+
+form span {
+    margin-left: 180px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+form button,
+form input {
+    height: 90px;
+    width: 300px;
+    border-radius: 14px;
+    border: 0;
+    padding: 10px;
+}
+
+form button {
+    background-color: rgb(72, 98, 202);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 20px 30px 0 rgba(114, 114, 236, 0.293);
+    margin-top: -90px;
+    font-size: 16px;
+
+}
+
+form input {
+    background-color: rgb(230, 243, 252);
+    outline: none;
+    /*remove a borda da caixa de texto ao clicar*/
+
+}
+
+label {
+    align-items: center;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+#or {
+    margin-top: 60px;
+}
+
+.sociais {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    gap: 15px;
+}
+
+.sociais button {
+    display: flex;
+    justify-content: space-evenly;
+    height: 45px;
+    width: 300px;
+    border-radius: 14px;
+    background-color: white;
+    color: rgb(99, 99, 99);
+    border-color: rgb(220, 220, 220);
+    border-width: 2px;
+    border-style: solid;
+}
+
+i {
+    margin-top: 12px;
+    font-size: 20px;
+    color: rgb(58, 79, 162);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(72, 98, 202);
+}

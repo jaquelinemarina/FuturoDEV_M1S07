@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.content {
+    position: fixed;
+    background: linear-gradient(160deg, rgb(237, 238, 167), rgb(240, 220, 160));
+    width: 100%;
+}
+
+.flex-container {
+    background-image: url(./assets/image.jpg);
+    background-position: center left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 205px;
+    height: 85vh;
+    width: 70vw;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.948);
+    color: rgb(99, 99, 99);
+    font-family: sans-serif;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text {
+    margin-top: 35px;
+ }
+
+h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color:rgb(25, 25, 25);
+    letter-spacing: -.5px;
+}
+
+p {
+    font-size: 13px;
+    margin-top: -8px;
+}
+
+form button,
+form input {
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;   
+}
+
+form button {
+    width: 125px;
+    height: 33px;
+    background-color: rgb(25, 25, 25);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-top: 12px;
+    padding: 8px;
+}
+
+form input {
+    padding: 10px;
+    margin-top: 3px;
+    height: 35px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    font-size: 12px;
+    border: .1px;
+    border-color: rgb(214, 214, 214);
+    border-style: solid;
+}
+label {
+    font-size: 14px;
+    color: rgb(27, 27, 27);
+}
+
+span {
+    margin-top: -30px;
+    font-size: 12px;
+    color: rgb(27, 27, 27);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+}

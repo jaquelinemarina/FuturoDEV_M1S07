@@ -1,0 +1,29 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header {
+    position: absolute;
+    background: chartreuse;
+    width: 100vw;
+    height: 80px; 
+}
+
+.sidebar {
+    background: blueviolet;
+    width: 400px;
+}
+
+.content{
+    background: cadetblue;
+    width: 100vw;
+}
